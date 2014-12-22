@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RhinoSpec::VERSION
   spec.authors       = ["Alex Riedler"]
   spec.email         = ["ariedler@codified.co"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A Distributed RSpec Server/Client workers.}
+  spec.description   = %q{A way to parallelize the your tests to the end of time}
   spec.homepage      = ""
   spec.license       = "MIT"
 

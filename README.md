@@ -18,9 +18,12 @@ Or install it yourself as:
 
     $ gem install rhino_spec
 
+brew install zeromq
+
 ## Usage
 
 TODO: Write usage instructions here
+
 
 ## Contributing
 
