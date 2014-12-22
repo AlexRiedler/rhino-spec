@@ -22,7 +22,10 @@ module RhinoSpec
   end
 
   class Server
+    include Celluloid
+
     def initialize
+      puts "Server Started"
       @worker_nodes =
         DCell::Node.select { |node| node.all.include?(:spec_worker) }
     end
