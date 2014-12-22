@@ -4,6 +4,7 @@ DCell.setup addr: 'tcp://127.0.0.1:9003', registry: { adapter: 'redis', host: 'l
 DCell.start id: 'spec_worker', addr: 'tcp://127.0.0.1:9002'
 RhinoSpec::SpecWorker.supervise_as :spec_worker
 
-_server = RhinoSpec::Server.new
+server = RhinoSpec::Server.new
+server.run_all_tests()
 
 sleep
