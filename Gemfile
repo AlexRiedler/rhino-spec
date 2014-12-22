@@ -5,3 +5,4 @@ gemspec
 
 gem 'dcell'
 gem 'foreman'
+gem 'rspec'
